@@ -1,0 +1,5 @@
+for files in filepath:
+    with open(files, 'r') as f:
+        for line in f:
+            if 'Abstract' in line:
+                print line;
