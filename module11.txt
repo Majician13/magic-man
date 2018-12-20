@@ -1,4 +1,4 @@
-Jody,40 
-Chris,42 
-Austin,5 
-Larry,70 
+taz devil, extinct
+taz emu, extinct
+taz bird, non existant
+taz dog, endangered
