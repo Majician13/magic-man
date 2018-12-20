@@ -1,0 +1,12 @@
+#Write a program, which will find all such numbers between 1000 and 3000 (both included)
+#such that each digit of the number is an even number.
+#The numbers obtained should be printed in a comma-separated sequence on a single line.
+
+d = []
+for count in range(1000, 3001):
+    s = str(count)
+    for number in s:
+        if int(number)%2 == 0:
+            d.append(number)
+            
+print(",".join(d))
